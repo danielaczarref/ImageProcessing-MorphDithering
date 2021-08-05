@@ -2,6 +2,18 @@
 
 ## Federal University of Maranhão
 
+### Running
+
+On terminal, type the following:
+
+```
+python3 main.py
+```
+
+And then, choose the option you prefer.
+
+
+
 ### Main goal: to develop, without any library (such as OpenCV), the following:
 
 1. Dithering:
