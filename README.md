@@ -39,6 +39,11 @@ And then, choose the option you prefer.
   - Smoothing
   - Gradient 
   
+## Results
+
+Example of Dithering - Threshold with dispersed periodic ordered modulation
+
+![alt text](https://github.com/danielaczarref/ImageProcessing-MorphDithering/blob/master/img/result.png?raw=true)
   
 ## TODO
 
