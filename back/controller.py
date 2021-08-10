@@ -121,7 +121,7 @@ def testMorfMonoDilate():
   imgRGB.loadImage('img/lennaRGB.jpg')
   imgRGB.toGray()
   mono = MorfologiaMono()
-  return mono.dilate(imgRGB, mat)
+  return mono.dilate(imgRGB, mat, False)
 
 @app.route('/morf-mono/testMorfMonoOpening')
 def testMorfMonoOpening():

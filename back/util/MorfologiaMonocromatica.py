@@ -81,7 +81,7 @@ class MorfologiaMono(Imagem):
         imagem.showImage('Erosion image')
         return imagem.setMatrixImage(matS)
 
-    def dilate(self, img: Imagem, mat, bool=False):
+    def dilate(self, img: Imagem, mat, bool):
         nChannels = img.getNChannels()
         height = img.getHeight()
         width = img.getWidth()
@@ -110,7 +110,8 @@ class MorfologiaMono(Imagem):
         imagem.setMatrixImage(matS)
         if (bool == True):
             imagem.showImage('Opening image')
-        imagem.showImage('Dilation image')
+        else:
+            imagem.showImage('Dilation image')
         return imagem.setMatrixImage(matS)
 
     def _erode(self, img: Imagem, mat):
@@ -172,7 +173,7 @@ class MorfologiaMono(Imagem):
         return imagem
 
     def opening(self, img: Imagem, mat):
-        return self.dilate(self._erode(img, mat), mat)
+        return self.dilate(self._erode(img, mat), mat, True)
 
     def closing(self, img: Imagem, mat):
         return self.erode(self._dilate(img, mat), mat, True)
