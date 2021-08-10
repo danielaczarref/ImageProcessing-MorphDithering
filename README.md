@@ -2,6 +2,38 @@
 
 ## Federal University of Maranhão
 
+### Setup Python
+
+```
+sudo apt update
+
+sudo apt install python3.8
+
+sudo apt-get -y install python3-pip
+
+sudo apt-get update
+
+pip3 install flask3
+```
+
+### Setup Front-end React.JS
+
+```
+sudo apt-get install -y nodejs
+
+npm install --global yarn
+
+```
+
+1. Pull this repo and, on the front directory, run:
+```
+
+yarn
+
+yarn start
+
+```
+
 ### Running
 
 On terminal, type the following:
@@ -44,8 +76,18 @@ And then, choose the option you prefer.
 Example of Dithering - Threshold with dispersed periodic ordered modulation
 
 ![alt text](https://github.com/danielaczarref/ImageProcessing-MorphDithering/blob/master/back/img/result.png?raw=true)
+
+
+- Front-end results, part I:
+
+![alt text](https://github.com/danielaczarref/ImageProcessing-MorphDithering/blob/master/back/img/pic1.png?raw=true)
+
+
+- Front-end results, part II:
+
+![alt text](https://github.com/danielaczarref/ImageProcessing-MorphDithering/blob/master/back/img/pic2.png?raw=true)
   
 ## TODO
 
-- Interface
 - Smoothing
+- Upload images
