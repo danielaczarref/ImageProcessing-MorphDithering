@@ -36,7 +36,14 @@ yarn start
 
 ### Running
 
-On terminal, type the following:
+To run the API in Flask, type in your terminal:
+
+```
+python3 controller.py
+
+```
+
+To run only the main file on terminal, type the following:
 
 ```
 python3 main.py
